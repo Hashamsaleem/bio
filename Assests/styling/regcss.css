@@ -1,0 +1,33 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+
+form{
+    margin-top: 110px;
+    width: 600px;
+    margin-left: 30%;
+    padding: 20px;
+    
+}
+form>fieldset{
+    width: 550px;
+    background:var(--light);
+    margin-right: 25px;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+    margin: 25px;
+}
+
+.log{
+    text-align: center;
+    font-size: 22px;
+    background: var(--pure);
+    font-weight: 500;
+}
